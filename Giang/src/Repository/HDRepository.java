@@ -136,7 +136,7 @@ public class HDRepository {
             }
             if (hinhThucTT != null && !hinhThucTT.isEmpty()) {
                 ps.setString(i++, hinhThucTT);
-            }
+            } //loi
             if (tongTienMin != null) {
                 ps.setDouble(i++, tongTienMin);
             }
